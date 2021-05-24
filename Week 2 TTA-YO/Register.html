@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New User Register</title>
+</head>
+<body>
+    <center>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name</label></td>
+                    <td><input type="text" name="name" placeholder="Your Name" id="name"></td>
+                    <td colspan="2">Social Media Links</td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email" placeholder="Email"></td>
+                    <td><label for="instagram">Instagram</label></td>
+                    <td><input type="url" name="instagram" id="instagram"></td>
+                </tr>
+                <tr>
+                    <td><label for="phone-number">Phone Number</label></td>
+                    <td><input type="tel" name="phone-number" id="phone-number"></td>
+                    <td><label for="twitter">Twitter</label></td>
+                    <td><input type="url" name="twitter" id="twitter"></td>
+                </tr>
+                <tr>
+                    <td><label for="date-of-birth">Date of Birth</label></td>
+                    <td><input type="date" id="date-of-birth" name="date-of-birth" max="2021-05-21"></td>
+                    <td><label for="facebook">Facebook</label></td>
+                    <td><input type="url" name="facebook" id="facebook"></td>
+                </tr>
+                <tr>
+                    <td><label for="cv">Upload your CV</label></td>
+                    <td><input type="file" name="cv" id="cv"></td>
+                    <td rowspan="3" colspan="2">Course of Interest<br>
+                        <label for="html"><input type="checkbox" name="html" value="html">HTML</label><br>
+                        <label for="css"><input type="checkbox" name="css" value="css">CSS</label><br>
+                        <label for="javascript"><input type="checkbox" name="javascript" value="javascript">JavaScript</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><label for="male"><input type="radio" name="gender" value="male" id="male">Male</label>
+                    <label for="female"><input type="radio" name="gender" value="female" id="male">Female</label></td>
+                </tr>
+                <tr>
+                    <td><label for="country">Select your country</label></td>
+                    <td><select name="country" id="country">
+                        <option value="UK">UK</option>
+                        <option value="France">France</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Portugal">Portugal</option>
+                    </select></td>
+                </tr>
+                <tr>
+                    <td><label for="user-name">Choose a Username</label></td>
+                    <td><input type="text" name="user-name" id="user-name" placeholder="Username"></td>
+                    <td colspan="2"><input type="submit" name="submit" id="submit"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Choose Password</label></td>
+                    <td><input type="password" name="password" id="password" placeholder="Password"></td>
+                    <td colspan="2">Already Registered? <a href="login.html">Click here!</a></td>
+                </tr>
+            </table>
+            
+        </form>
+    </center>
+    
+</body>
+</html>
