@@ -1,0 +1,222 @@
+.head1{
+    font-size: 56px;
+    color: #f28482;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.nav{
+    background-color: #84a59d;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px 10px 0px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.nav a{
+    color: #f7ede2;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 20px 16px 20px;
+    text-decoration: none;
+    float: left;
+    text-transform: uppercase;
+}
+.nav-right{
+    float: right;
+}
+footer{
+    width: 100%;
+    bottom: 0px;
+    background-color: #f6bd60;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer ul{
+    padding: 0;
+    margin: 0;
+}
+
+footer ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer ul li a{
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background: #f7ede2;
+}
+
+footer ul li a i{
+    font-size: 14px;
+    line-height: 30px;
+    color: #345952;
+    padding-top: 8px;
+}
+
+
+body{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+body, html{
+    height: 100%;
+    font-family: "work sans", sans-serif;
+    margin: 0;
+}
+
+.bg-image{
+    background-image: linear-gradient(to left, transparent, #84a59d),url("community-art.jpg");
+    height: 70%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-text{
+    text-align: center;
+    color: #f7ede2;
+    font-size: 22px;
+
+    /* center text */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bg-text button{
+    border: 2px solid;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: #f7ede2;
+    background-color: #f28482;
+    text-align: center;
+    cursor: pointer;
+    border-color: #f7ede2;
+    font-family: "work sans", sans-serif;
+}
+
+.bg-text button:hover,
+.contact-info-btn:hover{
+    color: #f28482;
+    background-color: #f7ede2;
+}
+
+.contact-wrap{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-info{
+    padding: 40px 30px;
+}
+
+.contact-info:nth-child(1){
+    flex: 40%;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("contact1.jpg");
+    color: #f7ede2;
+    padding-bottom: 20px;
+    background-size: cover;
+    opacity: 20;
+}
+
+.contact-info:nth-child(2){
+    flex: 40%;
+    background: #f28482;
+    color: #f7ede2;
+}
+
+.contact-info h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.contact-info h2{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+
+.contact-info h2 i{
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    background: #f7ede2;
+    color: #345952;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.contact-info p{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.contact-info form{
+    width: 100%;
+    height: auto;
+}
+
+.contact-info-form{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid #f7ede2;
+    outline: none;
+    padding-left: 5px;
+    background: transparent;
+    color: #f7ede2;
+    font-size: 16px;
+    font-family: "work sans", sans-serif;
+}
+
+.contact-info-form::placeholder,
+.contact-info textarea::placeholder{
+    color: #f7ede2;
+}
+
+.contact-info textarea{
+    width: 100%;
+    height: 140px;
+    margin-bottom: 20px;
+    border: 1px solid #f7ede2;
+    outline: none;
+    padding-top: 10px;
+    padding-left: 5px;
+    background: transparent;
+    color: #f7ede2;
+    font-size: 16px;
+    font-family: "work sans", sans-serif;
+}
+
+.contact-info-btn{
+    width: 100%;
+    height: 40px;
+    border: 1px solid #f7ede2;
+    outline: none;
+    background: transparent;
+    color: #f7ede2;
+    font-size: 16px;
+    font-family: "work sans", sans-serif;
+    cursor: pointer;
+}
