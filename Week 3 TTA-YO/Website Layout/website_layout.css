@@ -91,6 +91,10 @@ h1{
     color: #f6bd60;
 }
 
+h3{
+    color: #f7ede2;
+}
+
 .blue{
     color: #84a59d;
 }
@@ -325,11 +329,11 @@ h5{
 
 .leftcolumn{
     float: left;
-    width: 70%;
+    width: 75%;
 }
 
 .rightcolumn{
-    float: left;
+    float: right;
     width: 25%;
     padding-left: 20px;
 }
