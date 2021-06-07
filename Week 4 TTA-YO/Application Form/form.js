@@ -24,8 +24,8 @@ function show()
     }
     
 }
-
-function ischecked()
+// Not correct way to check
+/*function ischecked()
 {   
     var genm = document.getElementById("male").checked;
     var genf = document.getElementById("female").checked;
@@ -40,4 +40,13 @@ function ischecked()
         return true;
     }
 
+} */
+
+function checkGender()
+{
+    var gender = document.querySelector('input[name="gender"]:checked');
+    if (gender == "" || gender == null)
+    {
+        document.getElementById("msg5").innerText = "Please select your gender";  
+    }
 }
