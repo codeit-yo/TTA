@@ -1,0 +1,80 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+input[type=text], [type=email], [type=phone] {
+    width: 620px;
+    padding: 12px 20px;
+    margin: 10px 0px;
+    box-sizing: border-box;
+    border: 2px solid lightgray;
+    border-radius: 4px;
+}
+
+input:focus{
+    background-color: lightgray;
+}
+
+select{
+    width: 620px; 
+    padding: 12px 20px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 4px;
+    margin: 10px 0px;
+}
+
+#submit{
+    width: 620px; 
+    padding: 12px 20px;
+    color: white;
+    background-color: gray;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0px;
+    border-style: none;
+    border: 2px solid black;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+div #selection {
+    border: 2px solid lightgray;
+    padding: 12px 0px; 
+    margin: 10px 0px;
+}
+
+#country{
+    font-size: 16px;
+}
+
+p {
+    display: inline-block;
+    color: grey;
+    margin: 0px;
+}
+
+#hobbies, 
+#male, 
+#female {
+    margin-left: 30px;
+}
+
+.app-form{
+    display: block;
+    padding: 40px 30px;
+}
+
+form {
+    max-width: 620px;
+    margin: auto;
+}
+
