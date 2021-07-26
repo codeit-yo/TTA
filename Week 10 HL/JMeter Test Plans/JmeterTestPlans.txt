@@ -1,0 +1,22 @@
+SCRUM MASTER
+
+Performance Testing: JMeter
+
+
+1. Plan2
+Website: yoku
+No. of User: 20
+No. of iterations 20
+[Ramp-up value: time(second) between 2 request]
+
+2. Plan2
+Website: birmingham mail
+No. of User: 100
+No. of iterations: 100
+[Ramp-up value: time(second) between 2 request]
+
+3. Plan2
+Website: redbubble
+No. of User: 50
+No. of iterations: 50
+[Ramp-up value: time(second) between 2 request]
