@@ -17,3 +17,5 @@
 
 #### HLT7 - Student login application website  using JSEE (Java,JSP and Servlet) and JDBC to connect database and validate student login and enable website usage.
 ![Website Login Page - Java](https://user-images.githubusercontent.com/47123640/123796343-f3d29100-d8dc-11eb-8f46-85db05257f04.png)
+
+#### HLT8 - Student management system [Repository Link here](https://github.com/codeit-yo/Student-Management-System)
